@@ -34,6 +34,11 @@ anthropic>=0.25       # Claude (primary — no demo values injected)
 # openai>=1.10        # GPT-4o-mini fallback
 # google-generativeai>=0.5  # Gemini fallback
 
+# ── Dashboard & API ──────────────────────────────────────────────────────────
+fastapi>=0.100.0
+uvicorn>=0.23.0
+pydantic>=2.0.0
+
 # ── Testing ────────────────────────────────────────────────────────────────
 pytest>=7.4
 pytest-cov>=4.1       # Coverage reporting
